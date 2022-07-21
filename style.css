@@ -1,0 +1,68 @@
+body {
+    background: #9fa0a2;
+    color: #fff;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+ 
+.title {
+    text-align: center;
+    margin-top: 20px;
+    color: orange;
+}
+ 
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;   
+}
+ 
+.player,.computer {
+    text-align: center;
+    margin: 20px 80px;
+  
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+ 
+.replay {
+    display: none;
+    margin-top: 40px;
+    padding: 10px;
+    background: orange;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#result {
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(65, 51, 78);
+}
+#finalResult {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+ 
